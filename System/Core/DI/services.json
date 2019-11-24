@@ -1,0 +1,75 @@
+{
+  "services": [
+    {
+      "key": "request",
+      "class": "Core\\Request"
+    },
+    {
+      "key": "route",
+      "class": "Core\\Router",
+      "arguments": [
+        {
+          "arg": "request"
+        }
+      ]
+    },
+    {
+      "key": "load",
+      "class": "Core\\Loader"
+    },
+    {
+      "key": "session",
+      "class": "Core\\Session"
+    },
+    {
+      "key": "view",
+      "class": "Core\\ViewFactory"
+    },
+    {
+      "key": "response",
+      "class": "Core\\Response"
+    },
+    {
+      "key": "db",
+      "class": "Core\\Database"
+    },
+    {
+      "key": "container",
+      "class": "Core\\DI\\Container"
+    },
+    {
+      "key": "html",
+      "class": "Core\\Html"
+    },
+    {
+      "key": "mail",
+      "class": "Core\\Mailer\\Mail"
+    },
+    {
+      "key": "valid",
+      "class": "Core\\Validation"
+    },
+    {
+      "key": "pagination",
+      "class": "Core\\Pagination",
+      "arguments": [
+        {
+          "arg": "request"
+        }
+      ]
+    },
+    {
+      "key": "token",
+      "class": "Core\\Token",
+      "arguments": [
+        {
+          "arg": "session"
+        }
+      ]
+    },
+    {
+      "key": "recaptcha",
+      "class": "Core\\Recaptcha"
+    }
+  ]
+}
