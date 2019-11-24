@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Noto Sans:400,700,400italic,700italic&subset=latin');
+@import url('http://fonts.googleapis.com/earlyaccess/notokufiarabic.css');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #e2dcc5;
+    font-family: 'El Messiri', 'Noto Kufi Arabic', 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+a {
+    outline: none !important;;
+}
+
+t[type="file"] {
+    visibility: hidden;
+    position: absolute;
+}
+
+#main-show {
+    min-height: 100%;
+    background: #fff;
+    border: 1px solid #d3ccb0;
+}
+
+.book-preview {
+    padding: 2em;
+}
+
+.footer {
+    position: relative;
+    height: 150px;
+    clear: both;
+}
+
+.book-cover img {
+    height: 150px;
+    width: 110px;
+}
+
+.main-sidebar {
+    margin-top: 125px;
+
+}
+
+.inline {
+
+    display: inline;
+}
+
+.head-title {
+
+    margin: 15px;
+}
+
+.carousel {
+
+    margin-bottom: 15px;
+}
+
+.item img {
+    height: 200px;
+    width: 130px;
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.slick-next {
+    right: -10px;
+}
+
+.slick-prev {
+    left: -10px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar {
+    text-align: center;
+    border-radius: 0;
+}
+
+.homeBlock {
+    background: #eee url("../images/site/homeBlock.jpg") no-repeat;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.homeBlock-d {
+    min-height: 100px;
+}
+
+.homeBlock-d p {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.booksBlock {
+    background: #f8f8f8;
+    padding: 20px;
+    position: relative;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.cats {
+    background: #748D36;
+}
+
+.booksBlock.cats a {
+    color: #fff;
+}
+
+.BooksSlide {
+    position: absolute;
+    width: 27px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    top: 40%;
+    z-index: 1;
+}
+.catsSlide {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent;
+    top: 0;
+    z-index: 1;
+}
+.preSlide {
+    right: -15px;
+    background: transparent url("../images/site/preSlide.png") no-repeat 0 0;
+}
+
+.preSlide:hover {
+    background: transparent url("../images/site/preSlide.png") no-repeat -57px 0;
+}
+
+.nexSlide {
+    position: absolute;
+    left: -15px;
+    background: transparent url("../images/site/nexSlide.png") no-repeat -84px 0;
+}
+
+.nexSlide:hover {
+    background: transparent url("../images/site/nexSlide.png") no-repeat -28px 0;
+}
+
+.slick-slide {
+    width: 160px;
+}
+.catsPreSlide{
+    background: url("../images/site/arrow-left.png") no-repeat;
+    margin-left: -15px;
+    left: 0;
+}
+.catsNexSlide{
+    background: url("../images/site/arrow-right.png") no-repeat;
+    margin-right: -15px;
+    right:0;
+}
+.dropdown-menu {
+    width: 300px !important;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.category {
+    padding: 15px;
+}
+
+.book-info {
+    padding: 7px;
+    text-align: center;
+    width: 130px;
+}
+
+.book-container {
+    padding: 14px;
+}
+
+.val {
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+    padding-right: 5px;
+    color: #63797a;
+}
+
+.bookAttributes li {
+    padding: 5px;
+}
+
+.book-comment::after,
+.book-comment-form::before,
+.book-comment-form::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.book-comment {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.book-comment ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-comment img {
+    opacity: 1;
+    filter: Alpha(opacity=100);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.book-comment img.avatar {
+    position: relative;
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+    width: 65px;
+    height: 65px;
+}
+
+.book-comment .book-comments {
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    margin-right: 85px;
+    margin-left: 0px;
+    padding: 10px 20px;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    color: #6b6e80;
+    position: relative;
+}
+
+.book-comment .meta {
+    font-size: 13px;
+    color: #aaaaaa;
+    padding-bottom: 8px;
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid #eee;
+}
+
+.book-comment ul.comments ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 85px;
+}
+
+.book-comment-form {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 40px;
+}
+
+.book-comment h3,
+.book-comment-form h3 {
+    margin-bottom: 40px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+/*box*/
+.box {
+    background-color: #fff;
+    min-height: 300px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    border-radius: 2px;
+}
+
+#my-row {
+    display: table;
+}
+
+#my-row .panel {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.rest {
+    padding: 5px;
+}
+
+.book-comment::before,
+.book-comment::after,
+.book-comment-form::before,
+.book-comment-form::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.book-comment ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-comment img {
+    opacity: 1;
+    filter: Alpha(opacity=100);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.book-comment img.avatar {
+    position: relative;
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+    width: 65px;
+    height: 65px;
+}
+
+.book-comment .book-comments {
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    margin-right: 85px;
+    margin-left: 0px;
+    padding: 10px 20px;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    color: #6b6e80;
+    position: relative;
+}
+
+.book-comment .meta {
+    font-size: 13px;
+    color: #aaaaaa;
+    padding-bottom: 8px;
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid #dddddd;
+}
+
+.book-comment ul.comments ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 85px;
+}
+
+.book-comment-form {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 40px;
+}
+
+.book-comment h3,
+.book-comment-form h3 {
+    margin-bottom: 40px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.navbar-nav > li > a.profile-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+[dir="rtl"] .slick-prev {
+    right: -20px;
+}
+
+[dir="rtl"] .slick-next {
+    right: auto;
+    left: -20px;
+}
+
+.tp-border {
+    border-top: 8px solid #4E4A46;
+}
